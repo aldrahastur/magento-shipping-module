@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Tivents_Shipping>
+            <version>0.1.0</version>
+        </Tivents_Shipping>
+    </modules>
+    <default>
+        <carriers>
+            <tivents_shipping_print>
+                <active>1</active>
+                <model>tivents_shipping/carrier</model>
+                <title>Bitte wählen:</title>
+                <sort_order>10</sort_order>
+                <sallowspecific>0</sallowspecific>
+                <express_max_weight>1</express_max_weight>
+            </tivents_shipping_print>
+            <tivents_shipping_postal>
+                <active>1</active>
+                <model>tivents_shipping/carrier</model>
+                <title>Bitte wählen:</title>
+                <sort_order>10</sort_order>
+                <sallowspecific>0</sallowspecific>
+                <express_max_weight>1</express_max_weight>
+            </tivents_shipping_postal>
+            <tivents_shipping_postal_prio>
+                <active>1</active>
+                <model>tivents_shipping/carrier</model>
+                <title>Bitte wählen:</title>
+                <sort_order>10</sort_order>
+                <sallowspecific>0</sallowspecific>
+                <express_max_weight>1</express_max_weight>
+            </tivents_shipping_postal_prio>
+        </carriers>
+    </default>
+</config>
